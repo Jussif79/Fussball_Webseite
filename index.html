@@ -24,6 +24,22 @@
                   </div>
             </div>
         </nav>
+        <script>
+           const myHeaders = new Headers();
+myHeaders.append("x-apisports-key", "87fefa21f35cfa983e0dd08a8b39a285");
+
+const requestOptions = {
+  method: "GET",
+  headers: myHeaders,
+  redirect: "follow"
+};
+
+fetch("https://v3.football.api-sports.io/standings?season=2023&league=3", requestOptions)
+  .then((response) => response.text())
+  .then((result) => document.writeln(result))
+  .catch((error) => console.error(error));
+    </script>
+
     </header>
     <main>
 
