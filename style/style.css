@@ -2,22 +2,32 @@
     padding: 10px auto;
 }
 
+/* Homepage Logo */
 #homepage-logo{
     border-radius: 50%;
     width: 50px;
 }
 
+/* Navigation Bar */
 #navbar{
     display: flex;
     padding: 10px;
     background-color: rgb(73, 205, 205);
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo of a League in Dropdown Menu */
+.league-logo{
+    border-radius: 50%;
+    width: 12px;
 }
 
 /* Dropdown Button */
 .dropbtn {
     background-color: #04AA6D;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
     border-radius: 5%;
@@ -34,7 +44,7 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 170px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
