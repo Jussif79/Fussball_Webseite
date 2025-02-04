@@ -1,19 +1,44 @@
-*{
-    padding: 10px auto;
+html{
+  min-width: 825px;
 }
 
 /* Homepage Logo */
 #homepage-logo{
     border-radius: 50%;
-    width: 80px;
+    width: 150px;
 }
+
+
 
 /* Navigation Bar */
 #navbar{
     display: flex;
-    padding: 10px;
+    padding: 0px 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(47,178,205);
+    height: 130px;
+}
+
+#homepage-name{
+  font-size: 40px;
+  font-family: "Bangers", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#logo-name{
+  display: flex;
+  align-items: center;
+}
+
+#homepage-name a{
+  text-decoration: none;
+  color: rgb(190,71,28);
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /* Logo of a League in Dropdown Menu */
@@ -24,7 +49,7 @@
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: rgb(26,39,48);
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -42,7 +67,7 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: rgb(108, 178, 231);
     min-width: 170px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -63,4 +88,4 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color:rgb(49, 104, 146)}
