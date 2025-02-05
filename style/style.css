@@ -20,6 +20,7 @@ html{
     height: 130px;
 }
 
+/* Succer pulse Homepage name*/
 #homepage-name{
   font-size: 40px;
   font-family: "Bangers", serif;
@@ -28,12 +29,13 @@ html{
 }
 
 
-
+/* Logo and Homepage Name zusammen div*/
 #logo-name{
   display: flex;
   align-items: center;
 }
 
+/* homepage link on homepage name*/
 #homepage-name a{
   text-decoration: none;
   color: rgb(190,71,28);
@@ -89,3 +91,12 @@ html{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color:rgb(49, 104, 146)}
+
+
+
+
+
+  /***********FOOTER************/
+  footer{
+    background-color: blueviolet;
+  }
