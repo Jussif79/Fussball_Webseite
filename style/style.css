@@ -5,14 +5,13 @@
 /* Homepage Logo */
 #homepage-logo{
     border-radius: 50%;
-    width: 50px;
+    width: 80px;
 }
 
 /* Navigation Bar */
 #navbar{
     display: flex;
     padding: 10px;
-    background-color: rgb(73, 205, 205);
     align-items: center;
     justify-content: space-between;
 }
