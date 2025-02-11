@@ -115,12 +115,28 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-family: sans-serif;
 }
 
 #footer1 {
   display: flex;
   justify-content: space-around;
   background-color: #07536c;
+}
+
+#footer1 div{
+  text-align: left;
+}
+
+#social-media{
+  display: grid;
+  grid-template-columns: repeat(2,1fr); /* Every row has 2 columns*/
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i{
+  font-size: 40px;
 }
 
 #footer2 {
@@ -148,11 +164,29 @@ footer {
   height: 100px;
 }
 
+#app{
+  justify-items: center;
+}
+
 
 /**************SOCIAL MEDIA LOGO******************/
 
 .social-container a{
   color: white;
 
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before{
+  content: "\2728";
 }
 
