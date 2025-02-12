@@ -122,10 +122,7 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #07536c;
-}
-
-#footer1 div{
-  text-align: left;
+  padding-bottom: 20px;
 }
 
 #social-media{
@@ -144,7 +141,6 @@ footer {
   justify-content: center;
   background-color: #0b1d2b;
   color: white;
-
 }
 
 #footer3 {

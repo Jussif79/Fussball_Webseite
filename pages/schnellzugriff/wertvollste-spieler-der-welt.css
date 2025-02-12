@@ -26,4 +26,17 @@ table {
 
   #footballer{
     display: flex;
+    align-items: center;
+
+  }
+
+  td h4, td p {
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    width: 200%;
+  }
+
+  td p{
+    font-size: 13px;
   }
