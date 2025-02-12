@@ -111,7 +111,6 @@ body{
 
 /***********FOOTER************/
 footer {
-  background-color: blueviolet; /* Keeping the background color from HEAD */
   color: white;
   position: fixed;
   bottom: 0;
@@ -123,8 +122,8 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #07536c;
-  padding-bottom: 20px;
 }
+
 
 
 #social-media {
@@ -136,7 +135,6 @@ footer {
 
 #social-media i {
   font-size: 40px;
-  color: #ff5722; /* Keeping color from HEAD */
 }
 
 #footer2 {
@@ -153,7 +151,7 @@ footer {
   padding: 3px 0px;
 }
 
-#footer3 a {
+#footer3 a, #footer1 a{
   color: white;
   text-decoration: none;
 }
