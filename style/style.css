@@ -113,6 +113,7 @@ body{
 
 /***********FOOTER************/
 footer {
+  background-color: blueviolet; /* Keeping the background color from HEAD */
   color: white;
   position: relative;
   bottom: 0;
@@ -124,6 +125,20 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #07536c;
+  padding-bottom: 20px;
+}
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+  color: #ff5722; /* Keeping color from HEAD */
 }
 
 
