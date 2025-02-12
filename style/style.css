@@ -99,4 +99,8 @@ html{
   /***********FOOTER************/
   footer{
     background-color: blueviolet;
+  }.bx bx-football{
+    font-size: 24px;  /* Größe */
+    color: #ff5722;  /* Farbe */
+    margin-right: 10px;
   }
