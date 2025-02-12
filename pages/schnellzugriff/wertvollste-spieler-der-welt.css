@@ -22,6 +22,7 @@ table {
   
   td {
     color: #333;
+    height: 40px;
   }
 
   #footballer{
@@ -39,4 +40,8 @@ table {
 
   td p{
     font-size: 13px;
+  }
+
+  td img{
+    width: 20px;
   }
