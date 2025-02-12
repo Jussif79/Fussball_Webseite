@@ -139,6 +139,19 @@ footer {
   color: #ff5722; /* Keeping color from HEAD */
 }
 
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+}
+
 #footer2 {
   display: flex;
   justify-content: center;
@@ -153,7 +166,7 @@ footer {
   padding: 3px 0px;
 }
 
-#footer3 a {
+#footer3 a, #footer1 a{
   color: white;
   text-decoration: none;
 }
