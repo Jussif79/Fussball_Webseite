@@ -180,7 +180,7 @@ body {
 
 /* 🎯 SUB NAVBAR */
 .nav-cl {
-    background-color: #555;
+    background-color:#5e636e ;
     margin-top: 5px; /* Abstand zur oberen Navbar */
 }
 
@@ -355,15 +355,21 @@ body {
     /* Competition Section */
     .competition-section {
         margin-bottom: 2rem;
+        
+        padding-right: 12rem;
     }
     
     .competition-header {
-        background-color: #1F2937;
+        background-color:#5e636e;
         padding: 1rem;
         display: flex;
-        align-items: center;
+        align-items:right;
         margin-bottom: 0.5rem;
         margin-top: 2rem;
+        width: 120%;
+       
+       
+
     }
     
     .competition-icon {
@@ -375,31 +381,33 @@ body {
     .competition-header h2 {
         font-size: 1rem;
         font-weight: 500;
-        color: white;
+        color: black;
     }
     
     /* Matches Container */
     .matches-container {
-        background-color: #111827;
+        background-color: #5e636e;
         padding: 1rem;
+        width: 120%;
+        
     }
     
     .match {
         display: flex;
         align-items: center;
         padding: 0.75rem 0;
-        border-bottom: 1px solid #374151;
+        border-bottom: 1px solid black ;
         transition: background-color 0.3s;
     }
     
     .match:hover {
-        background-color: #1F2937;
+        background-color:#c2c9d6;
     }
     
     .match-date {
         width: 6rem;
         font-size: 0.875rem;
-        color: #9CA3AF;
+        color: black;
     }
     
     .match-content {
@@ -436,7 +444,7 @@ body {
     }
     
     .team-name {
-        color: white;
+        color: black;
     }
     
     .match-score {
