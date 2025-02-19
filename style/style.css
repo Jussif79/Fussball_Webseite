@@ -125,32 +125,6 @@ footer {
   padding-bottom: 20px;
 }
 
-
-#social-media {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  gap: 20px;
-}
-
-#social-media i {
-  font-size: 40px;
-  color: #ff5722; /* Keeping color from HEAD */
-}
-
-
-
-#social-media {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  gap: 20px;
-}
-
-#social-media i {
-  font-size: 40px;
-}
-
 #footer2 {
   display: flex;
   justify-content: center;
@@ -188,5 +162,21 @@ footer {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+}
+
+/* Unicode */
+ul li::before {
+  content: "\2728";
 }
 
