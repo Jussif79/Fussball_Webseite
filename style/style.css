@@ -108,9 +108,6 @@ body{
 }
 
 
-
-
-
 /***********FOOTER************/
 footer {
   background-color: blueviolet; /* Keeping the background color from HEAD */
@@ -193,7 +190,3 @@ ul {
   padding-left: 0;
 }
 
-/* Unicode */
-ul li::before {
-  content: "\2728";
-}
