@@ -1,4 +1,4 @@
- 
+
  /*---Zwischenstand--*/
  html{
     min-width: 825px;
@@ -306,163 +306,184 @@ body {
             height: 12rem;
         }
     }
- /* neues design result
-    /* Base styles */
+   
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: Arial, sans-serif;
     }
     
     body {
-        font-family: Arial, sans-serif;
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        min-height: 100vh;
-       
+        background-color: #1e3a5f;
+        color: white;
     }
     
-    .container {
-        max-width: 1024px;
+    .advertisement {
+        text-align: center;
+        padding: 8px;
+        background-color: #0d1117;
+        color: #888;
+        font-size: 12px;
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px 20px;
+        border-bottom: 1px solid #2d333b;
+    }
+    
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        margin-right: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 14px;
+    }
+    
+    .navigation a.active {
+        color: #e6194b;
+        border-bottom: 3px solid #e6194b;
+        padding-bottom: 15px;
+    }
+    
+    .sub-navigation {
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+    }
+    
+    .sub-navigation button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: #1c2129;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .sub-navigation button.active {
+        background-color: #d10a30;
+    }
+    
+    .filter-options {
+        display: flex;
+        padding: 10px 20px;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .filter-button {
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: #1c2129;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .filter-button.active {
+        background-color: #d10a30;
+    }
+    
+    .view-tabs {
+        display: flex;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    
+    .view-tab {
+        padding: 10px 20px;
+        background-color: #1c2129;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-right: 2px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .view-tab.active {
+        background-color: #2d333b;
+    }
+    
+    .standings-table {
+        width: 100%;
+        border-collapse: collapse;
         margin: 0 auto;
     }
     
-    /* Navigation */
-    .main-nav {
-        display: flex;
-        gap: 1.5rem;
-        margin-bottom: 1.5rem;
+    .standings-table th, .standings-table td {
+        padding: 12px 8px;
+        text-align: center;
+        border-bottom: 2px solid black;
     }
     
-    .main-nav button {
-        background: none;
-        border: none;
-        color: #9CA3AF;
-        padding: 0.5rem;
-        cursor: pointer;
-        transition: color 0.3s;
+    .standings-table th {
+        font-size: 12px;
+        color: #888;
+        font-weight: normal;
+        padding-bottom: 15px;
     }
     
-    .main-nav button:hover {
-        color: white;
+    .standings-table th:first-child, .standings-table td:first-child {
+        text-align: center;
+        padding-left: 20px;
+        width: 40px;
     }
     
-    .main-nav button.active {
-        color: white;
-        border-bottom: 2px solid #EF4444;
-    }
-    
-    /* Competition Section */
-    .competition-section {
-        margin-bottom: 2rem;
-    }
-    
-    .competition-header {
-        background-color: #1F2937;
-        padding: 1rem;
+    .standings-table td:nth-child(2) {
+        text-align: left;
         display: flex;
         align-items: center;
-        margin-bottom: 0.5rem;
-        margin-top: 2rem;
+        gap: 10px;
     }
     
-    .competition-icon {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 0.5rem;
+    .team-logo {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        border-radius: 50%;
     }
     
-    .competition-header h2 {
-        font-size: 1rem;
-        font-weight: 500;
-        color: white;
+    .position {
+        background-color: #1c2129;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-weight: bold;
     }
     
-    /* Matches Container */
-    .matches-container {
-        background-color: #111827;
-        padding: 1rem;
-    }
-    
-    .match {
+    .form-indicator {
         display: flex;
-        align-items: center;
-        padding: 0.75rem 0;
-        border-bottom: 1px solid #374151;
-        transition: background-color 0.3s;
-    }
-    
-    .match:hover {
-        background-color: #1F2937;
-    }
-    
-    .match-date {
-        width: 6rem;
-        font-size: 0.875rem;
-        color: #9CA3AF;
-    }
-    
-    .match-content {
-        flex: 1;
-        display: flex;
-        align-items: center;
-    }
-    
-    .team {
-        flex: 1;
-        display: flex;
-        align-items: center;
-    }
-    
-    .home-team {
-        justify-content: flex-start;
-    }
-    
-    .away-team {
+        gap: 2px;
         justify-content: flex-end;
     }
     
-    .team-icon {
-        width: 1.25rem;
-        height: 1.25rem;
-    }
-    
-    .home-team .team-icon {
-        margin-right: 0.5rem;
-    }
-    
-    .away-team .team-icon {
-        margin-left: 0.5rem;
-    }
-    
-    .team-name {
+    .result {
+        width: 22px;
+        height: 22px;
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px;
     }
     
-    .match-score {
-        width: 4rem;
-        text-align: center;
-        background-color: #374151;
-        padding: 0.25rem 0.75rem;
-        border-radius: 0.25rem;
-        margin: 0 1rem;
-        color: white;
+    .win {
+        background-color: #30d158;
     }
     
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .main-nav {
-            gap: 1rem;
-            overflow-x: auto;
-            padding-bottom: 0.5rem;
-        }
-        
-        .match-date {
-            width: 5rem;
-        }
-        
-        .team-name {
-            font-size: 0.875rem;
-        }
+    .loss {
+        background-color: #e6194b;
     }
     
+    .draw {
+        background-color: #f7b500;
+    }
