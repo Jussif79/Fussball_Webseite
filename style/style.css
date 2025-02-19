@@ -125,32 +125,6 @@ footer {
   padding-bottom: 20px;
 }
 
-
-#social-media {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  gap: 20px;
-}
-
-#social-media i {
-  font-size: 40px;
-  color: #ff5722; /* Keeping color from HEAD */
-}
-
-
-
-#social-media {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  gap: 20px;
-}
-
-#social-media i {
-  font-size: 40px;
-}
-
 #footer2 {
   display: flex;
   justify-content: center;
@@ -188,5 +162,44 @@ footer {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+}
+
+/* Unicode */
+ul li::before {
+  content: "\2728";
+}
+
+
+/************Carousel************/
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);  /* Yarı şeffaf arka plan */
+  color: white;
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;  /* Başlık boyutu */
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;  /* Açıklama boyutu */
 }
 
