@@ -307,3 +307,155 @@ body {
         }
     }
    
+/*design fixtures*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-fixtures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #1e3a5f;
+}
+
+.competition-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.star-icon {
+    color: #ffd700;
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+}
+
+.draw-link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.round-title {
+    padding: 15px 0;
+    color: #8b9cb3;
+    font-size: 14px;
+}
+
+.match {
+    background-color: #102235;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 20px;
+    border-bottom: 1px solid #1e3a5f;
+    transition: background-color 0.3s;
+}
+
+.match:hover {
+    background-color: #132f4c;
+}
+
+.match.darker {
+    background-color: #102235;
+}
+
+.star {
+    color: #ffd700;
+    opacity: 0.3;
+}
+
+.datetime {
+    width: 100px;
+    color: #8b9cb3;
+}
+
+.teams {
+    flex: 1;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.team-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.match-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.preview-btn {
+    background-color: transparent;
+    border: 1px solid #1e3a5f;
+    color: #8b9cb3;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.live-tag {
+    background-color: #ff0000;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.schedule-info {
+    margin-top: 30px;
+    color: #8b9cb3;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .match {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .match-info {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .datetime {
+        width: auto;
+    }
+}

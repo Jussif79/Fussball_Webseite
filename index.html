@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hompage</title>
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hompage</title>
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
         <nav id="navbar">
@@ -35,20 +41,20 @@
             </div>
         </nav>
         <script>
-           const myHeaders = new Headers();
+          const myHeaders = new Headers();
 myHeaders.append("x-apisports-key", "87fefa21f35cfa983e0dd08a8b39a285");
 
 const requestOptions = {
-  method: "GET",
-  headers: myHeaders,
-  redirect: "follow"
+ method: "GET",
+ headers: myHeaders,
+ redirect: "follow"
 };
 
 fetch("https://v3.football.api-sports.io/standings?season=2023&league=3", requestOptions)
-  .then((response) => response.text())
-  .then((result) => document.writeln(result))
-  .catch((error) => console.error(error));
-    </script>
+ .then((response) => response.text())
+ .then((result) => document.writeln(result))
+ .catch((error) => console.error(error));
+   </script>
 
     </header>
     <main>
@@ -61,6 +67,6 @@ git
 
     </footer>
 
-    <script src="scripts/script.js"></script>
 </body>
+
 </html>

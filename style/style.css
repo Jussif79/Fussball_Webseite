@@ -1,66 +1,192 @@
-*{
-    padding: 10px auto;
+html {
+  min-width: 825px;
+  background-color: #dbf3fa;
+  font-family: sans-serif;
 }
 
 /* Homepage Logo */
-#homepage-logo{
-    border-radius: 50%;
-    width: 80px;
+#homepage-logo {
+  border-radius: 50%;
+  width: 150px;
 }
 
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+
 /* Navigation Bar */
-#navbar{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
+#navbar {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1cbadf;
+  height: 130px;
+}
+
+/* Succer pulse Homepage name*/
+#homepage-name {
+  font-size: 40px;
+  font-family: "Bangers", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Logo and Homepage Name zusammen div*/
+#logo-name {
+  display: flex;
+  align-items: center;
+}
+
+/* homepage link on homepage name*/
+#homepage-name a {
+  text-decoration: none;
+  color: rgb(190, 71, 28);
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /* Logo of a League in Dropdown Menu */
-.league-logo{
-    border-radius: 50%;
-    width: 12px;
+.league-logo {
+  border-radius: 50%;
+  width: 12px;
 }
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5%;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  background-color: rgb(26, 39, 48);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(108, 178, 231);
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(49, 104, 146)
+}
+
+
+/***********FOOTER************/
+footer {
+  background-color: blueviolet; /* Keeping the background color from HEAD */
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+#footer1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #07536c;
+  padding-bottom: 20px;
+}
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+  color: #ff5722; /* Keeping color from HEAD */
+}
+
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+}
+
+#footer2 {
+  display: flex;
+  justify-content: center;
+  background-color: #0b1d2b;
+  color: white;
+}
+
+#footer3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0e2538;
+  padding: 3px 0px;
+}
+
+#footer3 a, #footer1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.appstore-logo {
+  width: 150px;
+  height: 100px;
+}
+
+#app {
+  justify-items: center;
+}
+
+/**************SOCIAL MEDIA LOGO******************/
+.social-container a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
