@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Champions League Navigation</title>
-  <link rel="stylesheet" href="/pages/champions_league/champions-league.css">
+  <link rel="stylesheet" href="/pages/champions_league/cl_standings.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
@@ -14,7 +14,7 @@
     <nav id="navbar">
       <div id="logo-name">
         <div>
-          <h1><a href="index.html"><img id="homepage-logo" src="/images/homepage-logo-removebg.png" alt=""></a></h1>
+          <h1><a href="index.html"><img id="homepage-logo" src="/images/logo/homepage-logo-removebg.png" alt=""></a></h1>
         </div>
         <div id="homepage-name">
           <h1><a href="/index.html">SOCCER PULSE</a></h1>
@@ -80,7 +80,7 @@
     <ul>
        
         <li><a href="/pages/champions_league/champions_league.html">News</a></li>
-        <li><a href="/pages/champions_league/cl-result.css">Results</a></li>
+        <li><a href="/pages/champions_league/cl_results.html">Results</a></li>
         <li><a href="/pages/champions_league/cl_fixtures.html">Fixtures</a></li>
         <li><a href="/pages/champions_league/cl_standings.html">Standings</a></li>
         <li><a href="/pages/champions_league/cl_archive.html">Archieve</a></li>
@@ -88,6 +88,282 @@
 </nav>
 
   </div>
+
+  <div class="advertisement">Advertisement</div>
+    
+ 
+  
+  <div class="sub-navigation">
+      
+      <button class="active">League Phase</button>
+     
+  </div>
+  
+  <div class="filter-options">
+      <button class="filter-button active">Standings</button>
+      <button class="filter-button">Top Scorers</button>
+  </div>
+  
+  
+  
+  <table class="standings-table">
+      <thead>
+          <tr>
+              <th>#</th>
+              <th>Team</th>
+              <th>MP</th>
+              <th>W</th>
+              <th>D</th>
+              <th>L</th>
+              <th>G</th>
+              <th>GD</th>
+              <th>PTS</th>
+              <th>Form</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><span class="position">1</span></td>
+              <td><img src="/images/clubs/liverpool.png" class="team-logo" alt=""/> Liverpool</td>
+              <td>8</td>
+              <td>7</td>
+              <td>0</td>
+              <td>1</td>
+              <td>17:5</td>
+              <td>12</td>
+              <td>21</td>
+              <td>
+                  <div class="form-indicator">
+                      <span class="result loss">L</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td><span class="position">2</span></td>
+              <td><img src="/images/clubs/barcelona.png" class="team-logo" alt=""/> Barcelona</td>
+              <td>8</td>
+              <td>6</td>
+              <td>1</td>
+              <td>1</td>
+              <td>28:13</td>
+              <td>15</td>
+              <td>19</td>
+              <td>
+                  <div class="form-indicator">
+                      <span class="result draw">D</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+              <td><span class="position">3</span></td>
+              <td><img src="/images/clubs/arsenal.png" class="team-logo" alt=""/> Arsenal</td>
+              <td>8</td>
+              <td>6</td>
+              <td>1</td>
+              <td>1</td>
+              <td>16:3</td>
+              <td>13</td>
+              <td>19</td>
+              <td>
+                  <div class="form-indicator">
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result win">W</span>
+                      <span class="result loss">L</span>
+                  </div>
+              </td>
+          </tr>
+          <tr>
+            <td><span class="position">4</span></td>
+            <td><img src="/images/clubs/bayer-munich.png" class="team-logo" alt=""/> Bayern München</td>
+            <td>8</td>
+            <td>7</td>
+            <td>0</td>
+            <td>1</td>
+            <td>17:5</td>
+            <td>12</td>
+            <td>21</td>
+            <td>
+                <div class="form-indicator">
+                    <span class="result loss">L</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="position">5</span></td>
+            <td><img src="/images/clubs/inter.png" class="team-logo" alt=""/> Inter</td>
+            <td>8</td>
+            <td>6</td>
+            <td>1</td>
+            <td>1</td>
+            <td>28:13</td>
+            <td>15</td>
+            <td>19</td>
+            <td>
+                <div class="form-indicator">
+                    <span class="result draw">D</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="position">6</span></td>
+            <td><img src="/images/clubs/dortmund.png" class="team-logo" alt=""/> Dortmund</td>
+            <td>8</td>
+            <td>6</td>
+            <td>1</td>
+            <td>1</td>
+            <td>16:3</td>
+            <td>13</td>
+            <td>19</td>
+            <td>
+                <div class="form-indicator">
+                    <span class="result win">l</span>
+                    <span class="result win">l</span>
+                    <span class="result win">W</span>
+                    <span class="result win">W</span>
+                    <span class="result loss">L</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+          <td><span class="position">7</span></td>
+          <td><img src="/images/clubs/chalsea.png" class="team-logo" alt=""/> Chelsea</td>
+          <td>8</td>
+          <td>7</td>
+          <td>0</td>
+          <td>1</td>
+          <td>17:5</td>
+          <td>12</td>
+          <td>21</td>
+          <td>
+              <div class="form-indicator">
+                  <span class="result loss">L</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+              </div>
+          </td>
+      </tr>
+      <tr>
+          <td><span class="position">8</span></td>
+          <td><img src="/images/clubs/manchester-city.png" class="team-logo" alt=""/> Manchester City</td>
+          <td>8</td>
+          <td>6</td>
+          <td>1</td>
+          <td>1</td>
+          <td>28:13</td>
+          <td>15</td>
+          <td>19</td>
+          <td>
+              <div class="form-indicator">
+                  <span class="result draw">D</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+              </div>
+          </td>
+      </tr>
+      <tr>
+          <td><span class="position">9</span></td>
+          <td><img src="/images/clubs/real-madrid.png" class="team-logo" alt=""/> Real Madrid</td>
+          <td>8</td>
+          <td>6</td>
+          <td>1</td>
+          <td>1</td>
+          <td>16:3</td>
+          <td>13</td>
+          <td>19</td>
+          <td>
+              <div class="form-indicator">
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result win">W</span>
+                  <span class="result loss">L</span>
+              </div>
+          </td>
+      </tr>
+      <tr>
+        <td><span class="position">1</span></td>
+        <td><img src="https://via.placeholder.com/24" class="team-logo" alt=""/> Liverpool</td>
+        <td>8</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1</td>
+        <td>17:5</td>
+        <td>12</td>
+        <td>21</td>
+        <td>
+            <div class="form-indicator">
+                <span class="result loss">L</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td><span class="position">2</span></td>
+        <td><img src="https://via.placeholder.com/24" class="team-logo" alt=""/> Barcelona</td>
+        <td>8</td>
+        <td>6</td>
+        <td>1</td>
+        <td>1</td>
+        <td>28:13</td>
+        <td>15</td>
+        <td>19</td>
+        <td>
+            <div class="form-indicator">
+                <span class="result draw">D</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td><span class="position">3</span></td>
+        <td><img src="https://via.placeholder.com/24" class="team-logo" alt=""/> Arsenal</td>
+        <td>8</td>
+        <td>6</td>
+        <td>1</td>
+        <td>1</td>
+        <td>16:3</td>
+        <td>13</td>
+        <td>19</td>
+        <td>
+            <div class="form-indicator">
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result win">W</span>
+                <span class="result loss">L</span>
+            </div>
+        </td>
+    </tr><!-- Weitere Teams hier einfügen -->
+      </tbody>
+  </table>
 
   <script src="/scripts/script.js"></script>
 </body>
