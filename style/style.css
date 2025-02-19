@@ -1,5 +1,7 @@
 html {
   min-width: 825px;
+  background-color: #dbf3fa;
+  font-family: sans-serif;
 }
 
 /* Homepage Logo */
@@ -106,31 +108,47 @@ body{
 }
 
 
-
-
-
-
-  /***********FOOTER************/
-  footer{
-    background-color: blueviolet;
-  }.bx bx-football{
-    font-size: 24px;  /* Größe */
-    color: #ff5722;  /* Farbe */
-    margin-right: 10px;
-  }
-
 /***********FOOTER************/
 footer {
+  background-color: blueviolet; /* Keeping the background color from HEAD */
   color: white;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
+  font-family: sans-serif;
 }
 
 #footer1 {
   display: flex;
   justify-content: space-around;
   background-color: #07536c;
+  padding-bottom: 20px;
+}
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
+  color: #ff5722; /* Keeping color from HEAD */
+}
+
+
+
+#social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+#social-media i {
+  font-size: 40px;
 }
 
 #footer2 {
@@ -138,7 +156,6 @@ footer {
   justify-content: center;
   background-color: #0b1d2b;
   color: white;
-
 }
 
 #footer3 {
@@ -148,7 +165,7 @@ footer {
   padding: 3px 0px;
 }
 
-#footer3 a {
+#footer3 a, #footer1 a{
   color: white;
   text-decoration: none;
 }
@@ -158,12 +175,18 @@ footer {
   height: 100px;
 }
 
-
-/**************SOCIAL MEDIA LOGO******************/
-
-.social-container a{
-  color: white;
-
+#app {
+  justify-items: center;
 }
 
+/**************SOCIAL MEDIA LOGO******************/
+.social-container a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
