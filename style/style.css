@@ -180,3 +180,26 @@ ul li::before {
   content: "\2728";
 }
 
+
+/************Carousel************/
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);  /* Yarı şeffaf arka plan */
+  color: white;
+  padding: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;  /* Başlık boyutu */
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1rem;  /* Açıklama boyutu */
+}
+
