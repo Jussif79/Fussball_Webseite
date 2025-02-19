@@ -307,155 +307,183 @@ body {
         }
     }
    
-/*design fixtures*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1e3a5f;
-    color: rgb(0, 0, 0);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
     
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header-fixtures {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #1e3a5f;
-}
-
-.competition-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.star-icon {
-    color: #ffd700;
-}
-
-.flag-icon {
-    width: 24px;
-    height: 16px;
-}
-
-.draw-link a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.round-title {
-    padding: 15px 0;
-    color: #8b9cb3;
-    font-size: 14px;
-}
-
-.match {
-    background-color: #102235;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 15px 10px;
-    gap: 20px;
-    border-bottom: 1px solid #1e3a5f;
-    transition: background-color 0.3s;
-}
-
-.match:hover {
-    background-color: #132f4c;
-}
-
-.match.darker {
-    background-color: #102235;
-}
-
-.star {
-    color: #ffd700;
-    opacity: 0.3;
-}
-
-.datetime {
-    width: 100px;
-    color: #8b9cb3;
-}
-
-.teams {
-    flex: 1;
-}
-
-.team {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 5px 0;
-}
-
-.team-logo {
-    width: 20px;
-    height: 20px;
-}
-
-.match-info {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.preview-btn {
-    background-color: transparent;
-    border: 1px solid #1e3a5f;
-    color: #8b9cb3;
-    padding: 5px 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.icons {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.live-tag {
-    background-color: #ff0000;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-size: 12px;
-}
-
-.schedule-info {
-    margin-top: 30px;
-    color: #8b9cb3;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .match {
-        flex-direction: column;
-        align-items: flex-start;
+    body {
+        background-color: #1e3a5f;
+        color: white;
     }
-
-    .match-info {
+    
+    .advertisement {
+        text-align: center;
+        padding: 8px;
+        background-color: #0d1117;
+        color: #888;
+        font-size: 12px;
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px 20px;
+        border-bottom: 1px solid #2d333b;
+    }
+    
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        margin-right: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 14px;
+    }
+    
+    .navigation a.active {
+        color: #e6194b;
+        border-bottom: 3px solid #e6194b;
+        padding-bottom: 15px;
+    }
+    
+    .sub-navigation {
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+    }
+    
+    .sub-navigation button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: #1c2129;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .sub-navigation button.active {
+        background-color: #d10a30;
+    }
+    
+    .filter-options {
+        display: flex;
+        padding: 10px 20px;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .filter-button {
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: #1c2129;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .filter-button.active {
+        background-color: #d10a30;
+    }
+    
+    .view-tabs {
+        display: flex;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    
+    .view-tab {
+        padding: 10px 20px;
+        background-color: #1c2129;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-right: 2px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .view-tab.active {
+        background-color: #2d333b;
+    }
+    
+    .standings-table {
         width: 100%;
-        justify-content: space-between;
-        margin-top: 10px;
+        border-collapse: collapse;
+        margin: 0 auto;
     }
-
-    .datetime {
-        width: auto;
+    
+    .standings-table th, .standings-table td {
+        padding: 12px 8px;
+        text-align: center;
+        border-bottom: 2px solid black;
     }
-}
+    
+    .standings-table th {
+        font-size: 12px;
+        color: #888;
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    
+    .standings-table th:first-child, .standings-table td:first-child {
+        text-align: center;
+        padding-left: 20px;
+        width: 40px;
+    }
+    
+    .standings-table td:nth-child(2) {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .team-logo {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+    
+    .position {
+        background-color: #1c2129;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    
+    .form-indicator {
+        display: flex;
+        gap: 2px;
+        justify-content: flex-end;
+    }
+    
+    .result {
+        width: 22px;
+        height: 22px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 3px;
+    }
+    
+    .win {
+        background-color: #30d158;
+    }
+    
+    .loss {
+        background-color: #e6194b;
+    }
+    
+    .draw {
+        background-color: #f7b500;
+    }
