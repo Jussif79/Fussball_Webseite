@@ -215,15 +215,18 @@ body {
     .news-container {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        
     }
     
     .news-card {
-        background-color: white;
-        border-radius:solid 2px 0.5rem;
+        background-color: rgb(255, 228, 228);
+        border:solid 2px   ;
+        border-radius: 8%;
+        padding:2 rem;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
         cursor: pointer;
         transition: background-color 0.2s;
+        margin: 1rem;
     }
     
     .news-card:hover {
@@ -237,6 +240,7 @@ body {
         gap: 1rem;
         align-items: center;
         background-color: rgb(139, 134, 128);
+        overflow: hidden;
     }
     
     .card-image {
@@ -282,6 +286,7 @@ body {
     .full-article {
         margin-bottom: 3rem;
         scroll-margin-top: 2rem;
+        color: white;
     }
     
     .full-article img {
@@ -296,6 +301,7 @@ body {
         font-size: 1.5rem;
         font-weight: 700;
         margin-bottom: 1rem;
+        color: white;
     }
     
     /* Responsive Design */
