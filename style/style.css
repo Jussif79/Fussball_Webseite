@@ -114,13 +114,13 @@ body {
 
 /***********FOOTER************/
 footer {
-  background-color: blueviolet;
   /* Keeping the background color from HEAD */
   color: white;
   position: relative;
   bottom: 0;
   width: 100%;
   font-family: sans-serif;
+  padding-top: 30px;
 }
 
 #footer1 {
@@ -128,6 +128,7 @@ footer {
   justify-content: space-around;
   background-color: #07536c;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #footer2 {
@@ -196,7 +197,8 @@ ul li::before {
   justify-content: center; 
   align-items: center; 
   height: 600px; 
-  padding: 0 10px; 
+  padding: 0 10px;
+  padding-top: 30px; 
 }
 
 .carousel-inner img {
