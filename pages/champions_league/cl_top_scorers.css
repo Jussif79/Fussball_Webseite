@@ -306,4 +306,108 @@ body {
             height: 12rem;
         }
     }
-   
+   /* design archieve  */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #0a1929;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.advertisement {
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+
+.navigation {
+    display: flex;
+    padding: 15px 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #1a3b5d;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #e50051;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.filter-dropdown {
+    background-color: #0a1929;
+    color: white;
+    border: 1px solid #2a4b6d;
+    border-radius: 5px;
+    padding: 10px;
+    flex-grow: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.filter-dropdown::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+}
+
+.scorers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scorers-table th {
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px solid #2a4b6d;
+    font-weight: normal;
+    color: #8a9bab;
+}
+
+.scorers-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #1a3b5d;
+}
+
+.flag {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+
+
+.rank {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
