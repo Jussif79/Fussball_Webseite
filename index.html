@@ -4,41 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hompage</title>
+  <title>Soccer Pulse - Fussballnachrichten, Live-Ergebnisse & Transfers</title>
+  <meta name="description"
+    content="Bleiben Sie mit Soccer Pulse auf dem neuesten Stand der Fussballwelt. Erhalten Sie aktuelle Nachrichten, Live-Ergebnisse und Transfer-Updates!">
+  <meta name="keywords" content="Fussball, Live-Ergebnisse, Transfergerüchte, Champions League, Bundesliga">
+
   <link rel="stylesheet" href="/style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Metal+Mania&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
   <header>
     <nav id="navbar">
+
+
       <div id="logo-name">
         <div>
-          <h1><a href="index.html"><img id="homepage-logo" src="/images/logo/homepage-logo-removebg.png" alt=""></a>
+          <h1><a href="/index.html"><img id="homepage-logo" src="/images/logo/homepage-logo-removebg.png" alt=""></a>
           </h1>
         </div>
 
 
+        <div id="homepage-name">
+          <h1><a class="homepage-title" href="index.html">SOCCER PULSE</a></h1>
+        </div>
       </div>
-      <div id="homepage-name">
-        <h1><a href="index.html">SOCCER PULSE </a></h1>
-      </div>
-      </div>
+
+
+
       <div>
         <button class="dropbtn">News</button>
         <div class="dropdown">
           <button class="dropbtn">Leagues</button>
           <div class="dropdown-content">
             <a href="/pages/champions_league/champions_league.html" target="_blank"><img class="league-logo"
-                src="/images/Champions Leauge Logo.png" alt="">Champions League</a>
-            <a href="/pages/europa-league.html" target="_blank">Europa Leauge</a>
-            <a href="/pages/conference-league.html" target="_blank">Conference League</a>
+                src="/images/logo/Champions Leauge Logo.png" alt="">Champions League</a>
+            <a href="/pages/europa_league/europa_league.html" target="_blank"><img class="league-logo"
+                src="/images/logo/Europa_League_logo.png" alt="">Europa League</a>
+            <a href="/pages/conference_league/conference_league.html" target="_blank"><img class="league-logo"
+                src="/images/logo/Conference_League_logo.png" alt="">Conference League</a>
           </div>
         </div>
         <button class="dropbtn">Transfers</button>
@@ -46,7 +56,7 @@
           <button class="dropbtn">Scores</button>
           <div class="dropdown-content">
             <a href="/pages/champions_league/champions_league.html" target="_blank">Live</a>
-            <a href="/pages/europa-league.html" target="_blank">Finished</a>
+            <a href="/pages/europa_league/europa-league.html" target="_blank">Finished</a>
             <a href="/pages/conference-league.html" target="_blank">Scheduled</a>
           </div>
         </div>
@@ -55,42 +65,97 @@
   </header>
   <main>
 
-    /*********Carousel**********/
+    <!-- *********Carousel********** -->
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="/images/homepage-carousel/1.jpg" class="d-block w-100" alt="Haber 1">
           <div class="carousel-caption d-none d-md-block">
-            <h5>VfB-Boss Wehrle: „Lücke zu Bayern & BVB zu schließen, wird vielleicht Jahrzehnte dauern“ </h5>
-            <p>Bu haberin kısa açıklaması burada yer alacak.</p>
+            <h5>VfB-Boss Wehrle: „Lücke zu Bayern & BVB zu schliessen, wird vielleicht Jahrzehnte dauern“ </h5>
+            <p>Der VfB Stuttgart stand gefühlt mehrfach mit einem Bein in der 2. Bundesliga, ehe er in den vergangenen
+              anderthalb Jahren an längst vergessene Erfolgszeiten anknüpfen konnte. Was dank guter Entscheidungen
+              möglich ist, zeigen die Verantwortlichen um Vorstandschef Alexander Wehrle, Sport-Geschäftsführer Fabian
+              Wohlgemuth und Cheftrainer Sebastian Hoeness, die den Schwaben neues Leben einhauchten.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="foto2.jpg" class="d-block w-100" alt="Haber 2">
+          <img src="/images/homepage-carousel/2.jpg" class="d-block w-100" alt="Haber 2">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Haber Başlığı 2</h5>
-            <p>Bu haberin kısa açıklaması burada yer alacak.</p>
+            <h5>Bochum-Ikone Freier im Interview: „Bayern und Dortmund hätten mich damals gern verpflichtet“ </h5>
+            <p>Wer an den deutschen Fussball der 2000er denkt, kommt an Paul Freier nicht vorbei. Über 350 Partien
+              absolvierte der Flügelspieler in Bundes-. und 2. Liga, zeitweise galt er als grosser Hoffnungsträger der
+              Nationalmannschaft, und wahrscheinlich wären Anzahl und Erfolge noch grösser ausgefallen, wenn sein Körper
+              nicht in den entscheidenden Situationen gestreikt hätte. Bei Transfermarkt spricht der heutige Co-Trainer
+              von Rot-Weiss Essen über seinen Durchbruch beim VfL Bochum, Gesundheitstipps von Peter Neururer, den
+              Wechsel nach Leverkusen und die verpasste EM 2004.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="foto3.jpg" class="d-block w-100" alt="Haber 3">
+          <img src="/images/homepage-carousel/3.jpg" class="d-block w-100" alt="Haber 3">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Haber Başlığı 3</h5>
-            <p>Bu haberin kısa açıklaması burada yer alacak.</p>
+            <h5>Jashari blickt mit „grossem Stolz“ auf Marktwert – Xhaka „in gewisser Weise ein Vorbild“ </h5>
+            <p>Trotz ihrer kleinen Grösse schafft es die Schweiz Jahr für Jahr, Top-Talente auszubilden. Eine ihrer
+              derzeit grössten Hoffnungen heisst Ardon Jashari. Der 22-Jährige wechselte im vergangenen Jahr vom FC
+              Luzern
+              zum 19-fachen belgischen Meister FC Brügge und gehört dort mittlerweile zu den Stammkräften. Bei
+              Transfermarkt spricht er über seinen Marktwert, einen Arroganz-Vorwurf seines Ex-Trainers, seine
+              Entscheidung pro Brügge und Vergleiche mit Granit Xhaka.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/homepage-carousel/4.jpg" class="d-block w-100" alt="Haber 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fink lässt KRC Genk vom Titel träumen – In Belgien gereift „wie ein guter Wein“ </h5>
+            <p>Als Thorsten Fink zu Saisonbeginn beim KRC Genk unterschrieb, übernahm der ehemalige HSV-Trainer einen
+              kranken Patienten. Mittlerweile lässt sich klar sagen, dass Fink einen grossen Anteil an der Gesundung des
+              Teams hat. Genk hat im Titelrennen um die belgische Meisterschaft die Nase vorn. Bei Transfermarkt spricht
+              der frühere Bayern-Profi über die Frischzellenkur für die Limburger und seine Entwicklung zum geduldigen,
+              „ganzheitlichen“ Trainer.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/homepage-carousel/5.jpg" class="d-block w-100" alt="Haber 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Affengruber reagiert auf Diskussion um Elche-Wechsel: „Kritische Stimmen gibt es immer“ </h5>
+            <p>Mit dem SK Sturm Graz holte er in der Saison 2023/24 das Double: David Affengruber war bei den Blackies
+              Leistungsträger und trug massgeblich zum Erfolg der Steirer bei. Dennoch entschied sich der
+              Innenverteidiger seinen Vertrag nicht zu verlängern und wagte im Sommer 2024 den Sprung in Spaniens
+              Zweitklassigkeit zum FC Elche. Bei Transfermarkt spricht Affengruber über seine erfolgreiche Zeit in
+              Österreich und seinen Neuanfang auf der iberischen Halbinsel.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/homepage-carousel/6.jpg" class="d-block w-100" alt="Haber 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Rennen um 5. Startplatz in Champions League 2025/26: Bundesliga im Hintertreffen </h5>
+            <p>Mit guten Leistungen auf internationaler Bühne und jeweils einem Finalisten in der Champions und Europa
+              League sicherte sich die Bundesliga im letzten Jahr einen fünften Platz in der Königsklasse. Dies wird
+              sich aller Voraussicht nach vorerst nicht wiederholen. Denn in der UEFA-Jahreswertung 2024/25 belegt
+              Deutschlands höchste Spielklasse vor den Starts der Achtelfinals nur den fünften Platz.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/homepage-carousel/7.jpg" class="d-block w-100" alt="Haber 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Wohin können Vereinslose noch wechseln? Unterschiedliche Regeln in Europas Top-Ligen </h5>
+            <p>Aktuell gibt es 50 vereinslose Spieler mit einem Marktwert von mindestens einer Million Euro, doch wo
+              können sie auch nach dem Ende des Winter-Transferfensters direkt in den Spielbetrieb einsteigen? Die
+              europäischen Top-10-Ligen haben diesbezüglich unterschiedliche Regeln. Transfermarkt gibt einen Überblick.
+            </p>
           </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Önceki</span>
+        <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Sonraki</span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
-    
+
 
   </main>
   <footer>
@@ -107,10 +172,10 @@
       <div class="social-container">
         <h2>Social Media</h2>
         <div id="social-media">
-          <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-          <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
-          <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
-          <a href="#"><i class="fa fa-youtube fa-3x"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+          <a href="https://x.com/" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-3x"></i></a>
         </div>
 
       </div>
@@ -134,7 +199,7 @@
       <h2>&copy; SUCCER PULSE 2025</h2>
     </div>
     <div id="footer3">
-      <a href="">Impressum</a>
+      <a href="/pages/footer-3/impressum.html">Impressum</a>
       <a href="">Datenschutz</a>
       <a href="">Nutzungsbedingungen</a>
     </div>
@@ -142,7 +207,7 @@
 
 
   <!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
