@@ -1,0 +1,129 @@
+# Archive created by ttar -cf .index.html index.html
+Path: index.html
+Lines: 124
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hompage</title>
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Metal+Mania&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div>
+                <a href="index.html"><img id="homepage-logo" src="/images/homepage-logo-removebg.png" alt=""><h1>SOCCER PULSE</h1></a>
+                
+            </div>
+            <div>
+                <div class="dropdown">
+                    <button class="dropbtn">Leagues</button>
+                    <div class="dropdown-content">
+                      <a href="/pages/champions-league.html" target="_blank"><img class="league-logo" src="/images/Champions Leauge Logo.png" alt="">Champions League</a>
+                      <a href="/pages/europa-league.html" target="_blank">Europa Leauge</a>
+                      <a href="/pages/conference-league.html" target="_blank">Conference League</a>
+                    </div>
+                  </div>
+                  <button class="dropbtn">News</button>
+                  <button class="dropbtn">Transfers</button>
+                  <div class="dropdown">
+                    <button class="dropbtn">Scores</button>
+                    <div class="dropdown-content">
+                      <a href="/pages/champions-league.html" target="_blank">Live</a>
+                      <a href="/pages/europa-league.html" target="_blank">Finished</a>
+                      <a href="/pages/conference-league.html" target="_blank">Scheduled</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <script>
+          const myHeaders = new Headers();
+myHeaders.append("x-apisports-key", "87fefa21f35cfa983e0dd08a8b39a285");
+
+const requestOptions = {
+ method: "GET",
+ headers: myHeaders,
+ redirect: "follow"
+};
+
+<<<<<<< HEAD
+fetch("https://v3.football.api-sports.io/standings?season=2023&league=3", requestOptions)
+ .then((response) => response.text())
+ .then((result) => console.log(result))
+ .catch((error) => console.error(error));
+   </script>
+=======
+      </div>
+      <div id="homepage-name">
+        <h1><a href="index.html">SOCCER PULSE 2</a></h1>
+      </div>
+      </div>
+      <div>
+        <button class="dropbtn">News</button>
+        <div class="dropdown">
+          <button class="dropbtn">Leagues</button>
+          <div class="dropdown-content">
+            <a href="/pages/cl_news.html" target="_blank"><img class="league-logo"
+                src="/images/Champions Leauge Logo.png" alt="">Champions League</a>
+            <a href="/pages/europa-league.html" target="_blank">Europa Leauge</a>
+            <a href="/pages/conference-league.html" target="_blank">Conference League</a>
+          </div>
+        </div>
+        <button class="dropbtn">Transfers</button>
+        <div class="dropdown">
+          <button class="dropbtn">Scores</button>
+          <div class="dropdown-content">
+            <a href="/pages/cl_news.html" target="_blank">Live</a>
+            <a href="/pages/europa-league.html" target="_blank">Finished</a>
+            <a href="/pages/conference-league.html" target="_blank">Scheduled</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  </main>
+  <footer>
+    <div id="footer1">
+      <div>
+        <h2>Schnellzugriff</h2>
+        <ul>
+          <li><a href="/pages/schnellzugriff/wertvollste-spieler-der-welt.html">Wertvollste Spieler der Welt</a></li>
+          <li><a href="">Neueste Transfers</a></li>
+          <li><a href="">Aktuelle Gerüchte</a></li>
+          <li><a href="/pages/schnellzugriff/fifa-weltrangliste.html">FIFA-Weltrangliste</a></li>
+        </ul>
+      </div>
+      <div class="social-container">
+        <h2>Social Media</h2>
+        <div id="social-media">
+          <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+          <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
+          <a href="#"><i class="fa fa-youtube fa-3x"></i></a>
+        </div>
+>>>>>>> origin/master
+
+    </header>
+    <main>
+git 
+        <p id="result">result</p>
+        <p id="error">error</p>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>\EOF
+Mode: 644
+# ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
