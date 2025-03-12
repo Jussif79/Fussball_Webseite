@@ -1,107 +1,105 @@
-
- /*---Zwischenstand--*/
- html{
+/*---Zwischenstand--*/
+html {
     min-width: 825px;
-  }
-  
-  /* Homepage Logo */
-  #homepage-logo{
-      border-radius: 50%;
-      width: 150px;
-  }
-  
-  
-  
-  /* Navigation Bar */
-  #navbar{
-      display: flex;
-      padding: 0px 20px;
-      align-items: center;
-      justify-content: space-between;
-      background-color: rgb(47,178,205);
-      height: 130px;
-  }
-  
-  /* Succer pulse Homepage name*/
-  #homepage-name{
+}
+
+/* Homepage Logo */
+#homepage-logo {
+    border-radius: 50%;
+    width: 150px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(47, 178, 205);
+    height: 130px;
+}
+
+/* Soccer pulse Homepage name */
+#homepage-name {
     font-size: 40px;
     font-family: "Bangers", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  
-  /* Logo and Homepage Name zusammen div*/
-  #logo-name{
+}
+
+/* Logo and Homepage Name zusammen div */
+#logo-name {
     display: flex;
     align-items: center;
-  }
-  
-  /* homepage link on homepage name*/
-  #homepage-name a{
+}
+
+/* homepage link on homepage name */
+#homepage-name a {
     text-decoration: none;
-    color: rgb(190,71,28);
+    color: rgb(190, 71, 28);
     padding-left: 0;
     margin-left: 0;
-  }
-  
-  /* Logo of a League in Dropdown Menu */
-  .league-logo{
-      border-radius: 50%;
-      width: 12px;
-  }
-  
-  /* Dropdown Button */
-  .dropbtn {
-      background-color: rgb(26,39,48);
-      color: white;
-      padding: 10px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5%;
-    }
-    
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: rgb(108, 178, 231);
-      min-width: 170px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color: #ddd;}
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
-    
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {background-color:rgb(49, 104, 146)}
-  
-  
-  
-  
-  
-    /***********FOOTER************/
-    footer{
-      background-color: blueviolet;
-    }
+}
+
+/* Logo of a League in Dropdown Menu */
+.league-logo {
+    border-radius: 50%;
+    width: 12px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(26, 39, 48);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(108, 178, 231);
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgb(49, 104, 146);
+}
+
+/*********** FOOTER ************/
+footer {
+    background-color: blueviolet;
+}
 
 * {
     margin: 0;
@@ -161,14 +159,13 @@ body {
     height: 64px;
 }
 
-
 .title-container h1 {
+    color: black;
     font-size: 28px;
     font-weight: 600;
     display: flex;
     align-items: center;
-     gap: 8px;
-
+    gap: 8px;
 }
 
 .season {
@@ -176,7 +173,6 @@ body {
     font-size: 14px;
     margin-top: 4px;
 }
-
 
 /* 🎯 SUB NAVBAR */
 .nav-cl {
@@ -207,107 +203,8 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .news-container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .news-card {
-        background-color: white;
-        border-radius: 0.5rem;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        transition: background-color 0.2s;
-    }
-    
-    .news-card:hover {
-        background-color: #f8f9fa;
-    }
-    
-    .card-content {
-        display: flex;
-        padding: 1rem;
-        gap: 1rem;
-        align-items: center;
-    }
-    
-    .card-image {
-        width: 12rem;
-        height: 8rem;
-        object-fit: cover;
-        border-radius: 0.375rem;
-    }
-    
-    .card-text {
-        flex: 1;
-    }
-    
-    .card-title {
-        font-size: 1.125rem;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-    }
-    
-    .card-preview {
-        color: #666;
-        margin-bottom: 0.5rem;
-    }
-    
-    .card-meta {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        font-size: 0.875rem;
-        color: #666;
-    }
-    
-    .card-arrow {
-        color: #999;
-        font-size: 1.25rem;
-    }
-    
-    /* Full Articles */
-    .articles-container {
-        margin-top: 3rem;
-    }
-    
-    .full-article {
-        margin-bottom: 3rem;
-        scroll-margin-top: 2rem;
-    }
-    
-    .full-article img {
-        width: 100%;
-        height: 16rem;
-        object-fit: cover;
-        border-radius: 0.5rem;
-        margin-bottom: 1rem;
-    }
-    
-    .full-article h1 {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-    }
-    
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .card-content {
-            flex-direction: column;
-        }
-    
-        .card-image {
-            width: 100%;
-            height: 12rem;
-        }
-    }
-   /* design archieve  */
-   body {
+/* Design Archive */
+body {
     font-family: Arial, sans-serif;
     background-color: #1e3a5f;
     color: white;
@@ -379,26 +276,15 @@ body {
 .scorers-table th {
     text-align: left;
     padding: 10px 20px;
-    border-bottom: 1px solid #2a4b6d;
+    border-bottom: 2px solid black;
     font-weight: normal;
     color: #8a9bab;
 }
 
 .scorers-table td {
     padding: 15px 20px;
-    border-bottom: 1px solid #1a3b5d;
+    border-bottom: 2px solid black;
 }
-
-.flag {
-    width: 24px;
-    height: 16px;
-    margin-right: 10px;
-    vertical-align: middle;
-    display: inline-block;
-    border-radius: 2px;
-}
-
-
 
 .rank {
     font-weight: bold;
@@ -410,4 +296,19 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+/* Flags and Club Logos */
+.flags_style {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.club_flag_style {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }

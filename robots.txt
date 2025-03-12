@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /test/
+
+Allow: /
+
+Sitemap: https://soccerpulse.mopekafe.myhostpoint.ch/sitemap.xml
+
+
+
+
+# Ich habe derzeit keine Seiten wie Privat, Admin, Login, Test. Diese wurden nur stellvertretend hinzugefügt. !!!
+
+# Diese Datei legt fest, welche Seiten von Suchmaschinen gecrawlt und welche ausgeschlossen werden.
+# Was bedeutet das?
+# Alle Seiten können gecrawlt werden, aber die Ordner /private/, /admin/, /login/ und /test/ sind ausgeschlossen.
+# Der Speicherort der Sitemap wird angegeben, damit die Suchmaschinen sie leicht finden können.
