@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://soccerpulse.mopekafe.myhostpoint.ch/</loc>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <url>
+      <loc>https://soccerpulse.mopekafe.myhostpoint.ch/fifa-weltrangliste</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://soccerpulse.mopekafe.myhostpoint.ch/wertvollste-spieler-der-welt</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <url>
+      <loc>https://soccerpulse.mopekafe.myhostpoint.ch/impressum</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+   </url>
+
+</urlset>
+
+
+<!-- 
+Diese Datei teilt den Suchmaschinen mit, welche Seiten indiziert werden sollen. 
+Was bedeutet das?
+Die Homepage wird täglich aktualisiert und hat die höchste Priorität.
+Die Seiten FIFA-Weltrangliste und Wertvollste Spieler werden wöchentlich aktualisiert.
+Die Seite Impressum hat eine niedrige Priorität, da sie selten aktualisiert wird.
+-->
