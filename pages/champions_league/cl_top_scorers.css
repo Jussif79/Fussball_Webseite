@@ -409,6 +409,8 @@ body {
 }
 .flags_style {
     margin-right:1rem;
+    height: 15px;
+    width: 25px;
 
 }
 .club_flag_style {

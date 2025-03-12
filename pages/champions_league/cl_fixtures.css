@@ -339,15 +339,16 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 1rem;
+    
 }
-
-.star-icon {
-    color: #ffd700;
+.competition-name{
+    color: white;
 }
 
 .flag-icon {
-    width: 24px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
 }
 
 .draw-link a {
